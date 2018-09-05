@@ -23,7 +23,7 @@ public class Welcome extends HttpServlet {
 
 		// writing html in the stream
 		pw.println("<html><body ><h2>");
-		pw.println(name+"  Welcome to the SIVA's Kingdom");
+		pw.println(name+"  Welcome to the SIVA's Kingdom.");
 		pw.println("</h2></body></html>");
 
 		pw.close();// closing the stream
